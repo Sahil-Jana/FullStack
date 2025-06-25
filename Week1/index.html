@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My IIT Bombay Journey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My IIT Bombay Journey</h1>
+      <div class="menu-icon" onclick="toggleMenu(this)">
+        <span class="bar top"></span>
+        <span class="bar middle"></span>
+        <span class="bar bottom"></span>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#learnings">Learnings</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#interactive">Interactive</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>
+        Hi! I'm Sahil, a student at IIT Bombay, currently pursuing my
+        undergraduate studies. My journey here has been filled with curiosity,
+        growth, and unforgettable memories. From the initial days of navigating
+        campus life to making lasting friendships, every moment has contributed
+        to shaping who I am today.
+      </p>
+    </section>
+
+    <section id="timeline">
+      <h2>Timeline & Milestones</h2>
+      <ul>
+        <li>
+          <strong>Day 1 at IITB:</strong> Orientation and first hostel room
+          setup — a new chapter began!
+        </li>
+        <li>
+          <strong>Semester 1:</strong> Adjusting to the academic pace, bonding
+          with wingmates, and exploring the campus.
+        </li>
+        <li>
+          <strong>Techfest/Cultural Fests:</strong> Volunteering and attending
+          events that made campus life vibrant.
+        </li>
+        <li>
+          <strong>First Hackathon:</strong> Participated in a 24-hour coding
+          challenge — lots of learning, little sleep!
+        </li>
+        <li>
+          <strong>Internship Opportunity:</strong> Got selected for a research
+          internship — applying theory to real-world problems.
+        </li>
+        <li>
+          <strong>Second Year:</strong> Took on leadership roles and started
+          focusing more on projects and skill-building.
+        </li>
+      </ul>
+    </section>
+
+    <section id="learnings">
+      <h2>Learnings & Growth</h2>
+      <p>
+        Over the semesters, I’ve gained strong foundations in programming, data
+        structures, and mathematical thinking. I’ve explored new areas like
+        machine learning, web development, and data science through coursework
+        and side projects.
+      </p>
+      <ul>
+        <li>
+          <strong>Skills gained:</strong> Python, C++, HTML/CSS/JS, Git, Machine
+          Learning
+        </li>
+        <li>
+          <strong>Favorite courses:</strong> Data Structures, Probability &
+          Stats, Linear Algebra
+        </li>
+        <li>
+          <strong>Clubs joined:</strong> Tech teams and coding clubs helped me
+          connect with like-minded peers
+        </li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <p>
+        Here are some snapshots from my IITB life — fests, friends, hostel
+        moments, and more!
+      </p>
+      <div class="gallery-grid">
+        <img src="images/1.jpg" alt="Campus View" />
+        <img src="images/2.jpg" alt="With Friends" />
+        <img src="images/3.jpg" alt="Fest Night" />
+        <img src="images/4.jpg" alt="Project Work" />
+      </div>
+    </section>
+
+    <section id="interactive">
+      <h2>Quick Quiz: What's your IITB vibe?</h2>
+      <p>Pick an option and we'll guess your campus personality:</p>
+      <form id="quiz-form">
+        <label
+          ><input type="radio" name="vibe" value="Night Owl" /> I study best at
+          night</label
+        ><br />
+        <label
+          ><input type="radio" name="vibe" value="Hostel Chiller" /> I love
+          chilling in the hostel</label
+        ><br />
+        <label
+          ><input type="radio" name="vibe" value="Library Enthusiast" /> I live
+          in the library</label
+        ><br />
+        <label
+          ><input type="radio" name="vibe" value="Fests Fanatic" /> I wait all
+          year for Mood Indigo</label
+        ><br /><br />
+        <button type="button" onclick="showVibe()">Submit</button>
+      </form>
+      <p id="vibe-result" style="font-weight: bold; margin-top: 10px"></p>
+    </section>
+
+    <section id="interactive">
+      <h2>Q&A Fun Box</h2>
+      <div id="interactive-box"></div>
+    </section>
+
+    <footer id="footer">
+      <p>© 2025 My IIT Bombay Journey. All rights reserved.</p>
+      <p>
+        <a href="https://www.iitb.ac.in" target="_blank">IIT Bombay</a> |
+        <a href="https://www.iitb.ac.in/academics" target="_blank">Academics</a>
+        <!-- <a href="https://github.com/yourusername" target="_blank">My GitHub</a> -->
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
